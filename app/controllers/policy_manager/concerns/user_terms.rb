@@ -1,4 +1,4 @@
-module PolicyManager::UserTerms
+module PolicyManager::Concerns::UserTerms
 
   extend ActiveSupport::Concern
 

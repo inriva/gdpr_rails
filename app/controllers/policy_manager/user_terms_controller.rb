@@ -3,7 +3,7 @@ require_dependency "policy_manager/application_controller"
 module PolicyManager
   class UserTermsController < ApplicationController
 
-    include PolicyManager::UserTerms
+    include PolicyManager::Concerns::UserTerms
 
     skip_before_action :user_authenticated?, only: [:show, :accept, :reject, :blocking_terms]
     before_action :set_user_term, only: [:accept, :reject, :show, :edit, :update, :destroy]
