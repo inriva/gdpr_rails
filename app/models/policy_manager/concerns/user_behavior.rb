@@ -1,5 +1,5 @@
 # -*- encoding : utf-8 -*-
-module PolicyManager::Support::UserBehavior
+module PolicyManager::Concerns::UserBehavior
   extend ActiveSupport::Concern
 
   included do

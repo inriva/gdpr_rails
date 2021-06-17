@@ -1,7 +1,7 @@
 # -*- encoding : utf-8 -*-
 require "paperclip"
 
-module PolicyManager::Support::PaperclipBehavior
+module PolicyManager::Concerns::PaperclipBehavior
   extend ActiveSupport::Concern
   include Paperclip::Glue
 
