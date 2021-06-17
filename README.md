@@ -123,7 +123,7 @@ Then add the concern to your `User` model:
 
 ```ruby
 class User < ApplicationRecord
-  include PolicyManager::Concerns::UserBehavior
+  include PolicyManager::Support::UserBehavior
 end
 ```
 

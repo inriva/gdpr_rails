@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  include PolicyManager::Concerns::UserBehavior
+  include PolicyManager::Support::UserBehavior
 
   def enabled_for_validation
     true

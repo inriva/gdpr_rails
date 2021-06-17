@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 
-module PolicyManager::Concerns::ActiveStorageBehavior
+module PolicyManager::Support::ActiveStorageBehavior
   extend ActiveSupport::Concern
 
   included do
