@@ -8,5 +8,8 @@ module PolicyManager
       g.assets false
       g.helper false
     end
+
+    config.assets.precompile += %w( policy_manager/application.css policy_manager/application.js)
+
   end
 end

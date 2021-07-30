@@ -5,11 +5,13 @@ module PolicyManager
 
     belongs_to :user, class_name: Config.user_resource.to_s, foreign_key:  :user_id
 
-    if PolicyManager::Config.paperclip
-      include PolicyManager::Concerns::PaperclipBehavior
-    else
-      include PolicyManager::Concerns::ActiveStorageBehavior
-    end
+    #if PolicyManager::Config.paperclip
+    #  include PolicyManager::Concerns::PaperclipBehavior
+    #else
+    #  include PolicyManager::Concerns::ActiveStorageBehavior
+    #end
+
+    include PolicyManager::Concerns::ActiveStorageBehavior
 
     include AASM
 

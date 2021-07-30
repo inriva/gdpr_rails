@@ -30,7 +30,7 @@ module PolicyManager
     end
 
     def set_language
-      I18n.locale = Config.user_language(current_user)
+      I18n.locale = 'de' #Config.user_language(current_user)
     end
 
     def current_user

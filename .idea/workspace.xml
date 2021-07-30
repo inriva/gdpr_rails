@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea50b453-5b31-47ca-a8e0-e33f6dd2a36c" name="Default Changelist" comment="" />
+    <list default="true" id="ea50b453-5b31-47ca-a8e0-e33f6dd2a36c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/policy_manager/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/policy_manager/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/policy_manager/portability_requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/policy_manager/portability_requests_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/policy_manager/portability_request.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/policy_manager/portability_request.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/policy_manager/portability.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/policy_manager/portability.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/policy_manager/shared/_footer.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/policy_manager/shared/_footer.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/policy_manager/user_portability_requests/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/policy_manager/user_portability_requests/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/policy_manager/engine.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/policy_manager/engine.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +129,10 @@
       <workItem from="1623934582083" duration="2122000" />
       <workItem from="1623945560132" duration="370000" />
       <workItem from="1623946024689" duration="184000" />
-      <workItem from="1623946319012" duration="515000" />
+      <workItem from="1623946319012" duration="8484000" />
+      <workItem from="1624190295477" duration="594000" />
+      <workItem from="1624194920702" duration="2000" />
+      <workItem from="1624372854835" duration="1131000" />
     </task>
     <servers />
   </component>

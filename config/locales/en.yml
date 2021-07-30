@@ -120,6 +120,9 @@ en:
         subject: Your data is being handled
       completed:
         subject: Your data is available
+    documents:
+      portability_request:
+        title: Portability request
   will_paginate:
     previous_label: "&lt;"
     next_label: "&gt;"
