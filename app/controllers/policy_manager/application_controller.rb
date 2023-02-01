@@ -9,7 +9,8 @@ module PolicyManager
     before_action :set_language
 
     def allow_admins
-      return redirect_to pending_user_terms_path unless Config.is_admin?(current_user)
+      # redirect to main app
+      return redirect_to '/users/dashboard' unless Config.is_admin?(current_user)
     end
 
     def doc
