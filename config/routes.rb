@@ -2,6 +2,8 @@ PolicyManager::Engine.routes.draw do
 
   get "documentation", to: "application#doc", as: :documentation
 
+  get '/user_terms/pending', to: redirect('/users/dashboard')
+  
   resources :user_portability_requests, only: [:index, :create, :destroy]
 
   resources :portability_requests, only: [:index, :destroy] do
@@ -16,7 +18,6 @@ PolicyManager::Engine.routes.draw do
 
   resources :user_terms, only: [:show] do 
     collection do 
-      get :pending
       put :accept_multiples
       get :blocking_terms
     end
